@@ -74,6 +74,7 @@ public class Player : MonoBehaviour
         FlipCharacter();
     }
 
+ 
     void FixedUpdate()
     {
         if (isDashing) return; // Skip movement during dash
